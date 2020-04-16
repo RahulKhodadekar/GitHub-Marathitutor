@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "217783475636",
+    "firebase_url": "https://login-fed8d.firebaseio.com",
+    "project_id": "login-fed8d",
+    "storage_bucket": "login-fed8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217783475636:android:c5fbef0a64b9714caee6e1",
+        "android_client_info": {
+          "package_name": "com.naturesharmony.apartments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217783475636-1lsp7amd5ucs8em7vuubu7lv024llu0a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.naturesharmony.apartments",
+            "certificate_hash": "532a9497338f36aa9b2466753e42181816aa980c"
+          }
+        },
+        {
+          "client_id": "217783475636-b0nb4tdkl9cciv8vbeijlp0nfsiimo1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWBw-hJ-9vxGGhONZ4by9JWuMcCa8OkPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217783475636-b0nb4tdkl9cciv8vbeijlp0nfsiimo1k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

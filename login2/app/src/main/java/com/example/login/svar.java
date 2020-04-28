@@ -15,7 +15,7 @@ import static android.media.AudioAttributes.USAGE_ASSISTANCE_SONIFICATION;
 
 public class svar extends AppCompatActivity {
     private SoundPool soundPool;
-    private int अ,आ,इ,ई,उ,ऊ,ए,ऐ,ओ,औ,अं;
+    private int अ,आ,इ,ई,उ,ऊ,ए,ऐ,ओ,औ,अं,अः;
     Button button1, button2,button3,button4,button5,button6,button7,button8,button9,button10,button11,button12;
 
     @Override
@@ -143,8 +143,8 @@ public class svar extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(getApplicationContext(), "Button 1 Clicked", Toast.LENGTH_SHORT).show();
-                soundPool.play(अ,1,1,0,0,1);
+                Toast.makeText(getApplicationContext(), "Button अः Clicked", Toast.LENGTH_SHORT).show();
+                soundPool.play(अः,1,1,0,0,1);
             }
         });
 
@@ -164,17 +164,18 @@ public class svar extends AppCompatActivity {
             soundPool = new SoundPool(2, AudioManager.STREAM_MUSIC, 0);
         }
 
-        अ = soundPool.load(this,R.raw.sound3,1);
-        आ = soundPool.load(this,R.raw.sound3,1);
+        अ = soundPool.load(this,R.raw.sound1,1);
+        आ = soundPool.load(this,R.raw.sound2,1);
         इ = soundPool.load(this,R.raw.sound3,1);
-        ई = soundPool.load(this,R.raw.sound3,1);
-        उ = soundPool.load(this,R.raw.sound3,1);
-        ऊ= soundPool.load(this,R.raw.sound3,1);
-        ए = soundPool.load(this,R.raw.sound3,1);
-        ऐ = soundPool.load(this,R.raw.sound3,1);
-        ओ = soundPool.load(this,R.raw.sound3,1);
-        औ = soundPool.load(this,R.raw.sound3,1);
-        अं = soundPool.load(this,R.raw.sound3,1);
+        ई = soundPool.load(this,R.raw.sound4,1);
+        उ = soundPool.load(this,R.raw.sound5,1);
+        ऊ= soundPool.load(this,R.raw.sound6,1);
+        ए = soundPool.load(this,R.raw.sound7,1);
+        ऐ = soundPool.load(this,R.raw.sound8,1);
+        ओ = soundPool.load(this,R.raw.sound9,1);
+        औ = soundPool.load(this,R.raw.sound10,1);
+        अं = soundPool.load(this,R.raw.sound11,1);
+        अः = soundPool.load(this,R.raw.sound12,1);
 
 
     }

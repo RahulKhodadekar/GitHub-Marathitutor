@@ -18,7 +18,7 @@ import static android.media.AudioAttributes.USAGE_ASSISTANCE_SONIFICATION;
 
 public class vyanjan extends AppCompatActivity {
     private SoundPool soundPool;
-    private int क,ख,ग,घ,ङ,छ,ज,झ,त्र,ट,ठ,ड,ढ,ण,त,थ,द,ध,न,प,फ,ब,भ,म,य,र,ल,व,श,ष,स,ह;
+    private int क,ख,ग,घ,ङ,छ,ज,झ,त्र,ट,ठ,ड,ढ,ण,त,थ,द,ध,न,प,फ,ब,भ,म,य,र,ल,व,श,ष,स,ह,क्ष;
     Button button,button1,button2,button3,button4,button5,button6,button7,button8,button9,button10,button11,button12,button13,button14,button15,button16,button17,button18,button19,button20,button21,button22,button23,button24,button25,button26,button27,button28,button29,button30,button31,button32,button33,button34,button35;
 
     @Override
@@ -63,7 +63,7 @@ public class vyanjan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(getApplicationContext(), "Button 1 Clicked", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Button क Clicked", Toast.LENGTH_SHORT).show();
                 soundPool.play(क,1,1,0,0,1);
             }
         });
@@ -381,38 +381,38 @@ public class vyanjan extends AppCompatActivity {
             soundPool = new SoundPool(2, AudioManager.STREAM_MUSIC, 0);
         }
 
-        क = soundPool.load(this,R.raw.sound3,1);
-        ख = soundPool.load(this,R.raw.sound3,1);
-        ग = soundPool.load(this,R.raw.sound3,1);
-        घ = soundPool.load(this,R.raw.sound3,1);
-        ङ = soundPool.load(this,R.raw.sound3,1);
-        छ = soundPool.load(this,R.raw.sound3,1);
-        ज = soundPool.load(this,R.raw.sound3,1);
-        झ = soundPool.load(this,R.raw.sound3,1);
-        त्र = soundPool.load(this,R.raw.sound3,1);
-        ट = soundPool.load(this,R.raw.sound3,1);
-        ठ = soundPool.load(this,R.raw.sound3,1);
-        ड = soundPool.load(this,R.raw.sound3,1);
-        ढ = soundPool.load(this,R.raw.sound3,1);
-        ण = soundPool.load(this,R.raw.sound3,1);
-        त = soundPool.load(this,R.raw.sound3,1);
-        थ = soundPool.load(this,R.raw.sound3,1);
-        द = soundPool.load(this,R.raw.sound3,1);
-        ध = soundPool.load(this,R.raw.sound3,1);
-        न = soundPool.load(this,R.raw.sound3,1);
-        प = soundPool.load(this,R.raw.sound3,1);
-        फ = soundPool.load(this,R.raw.sound3,1);
-        ब = soundPool.load(this,R.raw.sound3,1);
-        भ = soundPool.load(this,R.raw.sound3,1);
-        म = soundPool.load(this,R.raw.sound3,1);
-        य = soundPool.load(this,R.raw.sound3,1);
-        र = soundPool.load(this,R.raw.sound3,1);
-        ल = soundPool.load(this,R.raw.sound3,1);
-        व = soundPool.load(this,R.raw.sound3,1);
-        श = soundPool.load(this,R.raw.sound3,1);
-        ष = soundPool.load(this,R.raw.sound3,1);
-        स = soundPool.load(this,R.raw.sound3,1);
-        ह = soundPool.load(this,R.raw.sound3,1);
+        क = soundPool.load(this,R.raw.sound13,1);
+        ख = soundPool.load(this,R.raw.sound25,1);
+        ग = soundPool.load(this,R.raw.sound37,1);
+        घ = soundPool.load(this,R.raw.sound49,1);
+        ङ = soundPool.load(this,R.raw.sound61,1);
+        छ = soundPool.load(this,R.raw.sound73,1);
+        ज = soundPool.load(this,R.raw.sound85,1);
+        झ = soundPool.load(this,R.raw.sound97,1);
+        ट = soundPool.load(this,R.raw.sound109,1);
+        ठ = soundPool.load(this,R.raw.sound121,1);
+        ड = soundPool.load(this,R.raw.sound133,1);
+        ढ = soundPool.load(this,R.raw.sound145,1);
+        ण = soundPool.load(this,R.raw.sound157,1);
+        त = soundPool.load(this,R.raw.sound169,1);
+        थ = soundPool.load(this,R.raw.sound181,1);
+        द = soundPool.load(this,R.raw.sound193,1);
+        ध = soundPool.load(this,R.raw.sound205,1);
+        न = soundPool.load(this,R.raw.sound217,1);
+        प = soundPool.load(this,R.raw.sound229,1);
+        फ = soundPool.load(this,R.raw.sound241,1);
+        ब = soundPool.load(this,R.raw.sound253,1);
+        भ = soundPool.load(this,R.raw.sound265,1);
+        म = soundPool.load(this,R.raw.sound277,1);
+        य = soundPool.load(this,R.raw.sound289,1);
+        र = soundPool.load(this,R.raw.sound301,1);
+        ल = soundPool.load(this,R.raw.sound313,1);
+        व = soundPool.load(this,R.raw.sound325,1);
+        श = soundPool.load(this,R.raw.sound337,1);
+        ष = soundPool.load(this,R.raw.sound349,1);
+        स = soundPool.load(this,R.raw.sound361,1);
+        ह = soundPool.load(this,R.raw.sound373,1);
+        क्ष = soundPool.load(this,R.raw.sound385,1);
 
 
     }
